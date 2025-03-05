@@ -1,9 +1,7 @@
 import { useEffect, useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import '../App'
 
-function App() {
+function BookPage() {
   const [books, setBooks] = useState([]);
   const [title, setTitle] = useState("")
   const [releaseYear, setReleaseYear] = useState(0);
@@ -118,4 +116,4 @@ function App() {
   )
 }
 
-export default App
+export default BookPage;
